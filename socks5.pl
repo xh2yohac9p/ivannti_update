@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/bin/perl
 # Minimal SOCKS5 proxy for Perl 5.6.1
 # Features: no-auth, CONNECT command, IPv4 + domain name, select-based relay
 # No threads, no non-core modules beyond Socket and IO::Socket::INET.
