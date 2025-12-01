@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/bin/perl
 use strict;
 use warnings;
 use IO::Socket::INET;
