@@ -9,7 +9,7 @@ use Socket;           # core
 use IO::Socket::INET; # core in 5.6.x
 
 $LISTEN_ADDR = $ARGV[0] || '0.0.0.0';
-$LISTEN_PORT = $ARGV[1] || 1080;
+$LISTEN_PORT = $ARGV[1] || 61080;
 
 # Create listening socket
 my $server = IO::Socket::INET->new(
